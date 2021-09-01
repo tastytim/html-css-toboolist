@@ -19,15 +19,8 @@ main {
 }
 
 section {
-  padding-left: 35px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 35px 25px 35px;
   background-color: white;
-}
-
-h3 {
-  padding-top: 5px;
-  padding-bottom: 25px;
 }
 
 hr {
@@ -35,15 +28,26 @@ hr {
 }
 
 ul {
-  list-style: none;
+  list-style: disclosure-open;
+  font-size: 26px;
 }
 
 li {
-  padding: 10px;
+  padding: 10px 0;
+}
+
+.nodisclosure {
+  font-size: medium;
+  list-style: none;
 }
 
 span {
   margin-right: 15px;
+}
+
+.titololista {
+  font-size: 26px;
+  font-weight: bold;
 }
 
 #logo {
@@ -53,17 +57,14 @@ span {
   margin: 15px 10px 15px 10px;
 }
 
-.div {
-  width: 100%;
-}
-
 .titolostyle {
   display: inline-block;
 }
 
 .c {
-  padding: 10px 18px;
-  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
   color: white;
   border-color: ivory;
   border-style: solid;
@@ -86,14 +87,18 @@ span {
 }
 
 .ok {
+  color: #16c60c;
   border-color: #16c60c;
   border-radius: 50%;
   border-style: solid;
+  border-width: thin;
 }
 .no {
+  color: #f03a17;
   border-color: #f03a17;
   border-radius: 50%;
   border-style: solid;
+  border-width: thin;
 }
 
 .blue {
