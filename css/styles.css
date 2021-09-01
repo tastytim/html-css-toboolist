@@ -5,8 +5,24 @@
 }
 
 body {
+  background-color: white;
+}
+
+main {
   padding-bottom: 5px;
   border-color: gray;
+  padding: 5rem;
+  margin: auto;
+  font-family: sans-serif;
+  background-size: cover;
+  background-color: #f3f1f5;
+}
+
+section {
+  padding-left: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
 }
 
 h1 {
@@ -24,14 +40,30 @@ p {
   padding-bottom: 10px;
 }
 
+hr {
+  color: transparent;
+}
+
+.c {
+  padding: 10px 18px;
+  border-radius: 50%;
+  color: white;
+  border-color: ivory;
+  border-style: solid;
+}
+
 .b_all {
   text-align: center;
-  border-radius: 10%;
+  border-radius: 8px;
   border-color: ghostwhite;
+  margin-top: 25px;
+  padding: 12px 28px;
+  background-color: ghostwhite;
 }
 
 .b_blu {
   background-color: #0078d7;
+  border-color: #0078d7;
 }
 
 .greenspan {
@@ -47,43 +79,23 @@ p {
 
 .blue {
   background-color: #0078d7;
-  border-color: ivory;
-  border-style: solid;
-  border-radius: 25%;
-  color: white;
 }
 .violet {
   background-color: #cf69b9;
-  border-color: ivory;
-  border-style: solid;
-  border-radius: 25%;
-  color: white;
 }
 .green {
   background-color: #50d13f;
-  border-color: ivory;
-  border-style: solid;
-  border-radius: 25%;
-  color: white;
 }
 .orange {
   background-color: #ecac21;
-  border-color: ivory;
-  border-style: solid;
-  border-radius: 25%;
-  color: white;
 }
 .greenacid {
   background-color: #7dfc07;
-  border-color: ivory;
-  border-style: solid;
-  border-radius: 25%;
-  color: white;
 }
 .fucsia {
   background-color: #ee22e4;
-  border-color: ivory;
-  border-style: solid;
-  border-radius: 25%;
-  color: white;
+}
+
+span {
+  padding: 5px;
 }
