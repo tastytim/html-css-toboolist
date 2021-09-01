@@ -8,6 +8,22 @@ body {
   background-color: white;
 }
 
+.div {
+  width: 100%;
+}
+
+.titolostyle {
+  display: inline-block;
+  vertical-align: center;
+}
+
+#logo {
+  width: 75px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 15px 10px 15px 10px;
+}
+
 main {
   padding-bottom: 5px;
   border-color: gray;
@@ -59,19 +75,21 @@ hr {
   margin-top: 25px;
   padding: 12px 28px;
   background-color: ghostwhite;
+  color: grey;
 }
 
 .b_blu {
   background-color: #0078d7;
   border-color: #0078d7;
+  color: white;
 }
 
-.greenspan {
+.ok {
   border-color: #16c60c;
   border-radius: 50%;
   border-style: solid;
 }
-.redspan {
+.no {
   border-color: #f03a17;
   border-radius: 50%;
   border-style: solid;
