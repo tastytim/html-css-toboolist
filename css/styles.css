@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 5px;
+  border-color: gray;
+}
+
+h1 {
+  display: inline-block;
+  line-height: 100px;
+}
+
+h3 {
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.b_all {
+  text-align: center;
+  border-radius: 10%;
+  border-color: ghostwhite;
+}
+
+.b_blu {
+  background-color: #0078d7;
+}
+
+.greenspan {
+  border-color: #16c60c;
+  border-radius: 50%;
+  border-style: solid;
+}
+.redspan {
+  border-color: #f03a17;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.blue {
+  background-color: #0078d7;
+  border-color: ivory;
+  border-style: solid;
+  border-radius: 25%;
+  color: white;
+}
+.violet {
+  background-color: #cf69b9;
+  border-color: ivory;
+  border-style: solid;
+  border-radius: 25%;
+  color: white;
+}
+.green {
+  background-color: #50d13f;
+  border-color: ivory;
+  border-style: solid;
+  border-radius: 25%;
+  color: white;
+}
+.orange {
+  background-color: #ecac21;
+  border-color: ivory;
+  border-style: solid;
+  border-radius: 25%;
+  color: white;
+}
+.greenacid {
+  background-color: #7dfc07;
+  border-color: ivory;
+  border-style: solid;
+  border-radius: 25%;
+  color: white;
+}
+.fucsia {
+  background-color: #ee22e4;
+  border-color: ivory;
+  border-style: solid;
+  border-radius: 25%;
+  color: white;
+}
